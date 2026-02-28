@@ -1,0 +1,11 @@
+- name: Azure VNET Deploy
+  hosts: localhost
+  connection: local
+
+  tasks:
+
+    - name: Bicep deploy et
+      ansible.builtin.shell: |
+        az deployment group create \
+          --resource-group my-rg \
+          --template-file main.bicep

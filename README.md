@@ -1,4 +1,4 @@
-# Azure VNet Infrastructure — Bicep & AZ CLI
+# Azure HUB SPOKE Architecture
 
 This project demonstrates how to build a secure network infrastructure between two VNets on Azure using Bicep and AZ CLI.
 
